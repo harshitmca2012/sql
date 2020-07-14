@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Nums]
+(
+[n] [int] NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Nums] ADD CONSTRAINT [PK_Nums] PRIMARY KEY CLUSTERED  ([n]) ON [PRIMARY]
+GO
